@@ -1,0 +1,65 @@
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css"
+/>
+<link rel="stylesheet" href="styles.css" />
+
+<div class="page-container">
+  <header class="main-header">
+    <img
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/da1215e9741f8a623b2ea9e81a242447164e152c"
+      alt="Book Creator Logo"
+      class="header-logo"
+    />
+    <nav class="desktop-nav">
+      <button class="nav-button create-account">create account</button>
+      <button class="nav-button login">login</button>
+    </nav>
+    <button class="mobile-menu-toggle">
+      <i class="ti ti-menu-2"></i>
+    </button>
+  </header>
+
+  <main class="main-content">
+    <h1 class="about-title">about us</h1>
+    <section class="about-section">
+      <div class="text-group">
+        <p class="about-text">
+          welcome to book creator,where story telling meets stunning visuals !
+          We are
+        </p>
+        <p class="about-text">
+          passionate about creating unique and immersive digital comic books
+          that
+        </p>
+        <p class="about-text">capivate readers with every page.</p>
+      </div>
+
+      <div class="text-group">
+        <p class="about-text">
+          from exciting adventures to heartfelt moments,our tam brings original
+          characters
+        </p>
+        <p class="about-text">
+          and captivating worlds to life through dynamic art and compelling
+          naratives
+        </p>
+      </div>
+
+      <div class="text-group">
+        <p class="about-text large">
+          whether you are a long comic fan or new to the medium,we invite you to
+          dive
+        </p>
+        <p class="about-text large">
+          dive into our universe of creativity and experience comics like never
+        </p>
+        <p class="about-text large">before!</p>
+      </div>
+    </section>
+  </main>
+</div>

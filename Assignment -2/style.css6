@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 100vh;
+}
+
+.navigation-header {
+  background-color: rgba(238, 117, 117, 1);
+  display: flex;
+  width: 100%;
+  padding: 1px 80px 8px 33px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.logo {
+  aspect-ratio: 4.63;
+  object-fit: contain;
+  object-position: center;
+  width: 389px;
+  max-width: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  margin-top: 43px;
+  margin-left: 68px;
+  width: 681px;
+  max-width: 100%;
+  align-items: stretch;
+  gap: 40px 84px;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  color: rgba(29, 2, 2, 1);
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-decoration: none;
+  width: 102px;
+}
+
+.nav-link:nth-child(2) {
+  color: rgba(27, 2, 2, 1);
+  width: 145px;
+}
+
+.nav-link:nth-child(3) {
+  color: rgba(0, 0, 0, 1);
+  width: 187px;
+}
+
+.main-content {
+  padding-bottom: 490px;
+  overflow: hidden;
+}
+
+.content-section {
+  margin-top: 121px;
+  margin-left: 75px;
+  width: 628px;
+  max-width: 100%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.empty-state {
+  background-color: rgba(217, 217, 217, 1);
+  padding: 71px 63px;
+  font-family:
+    "Indie Flower",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.books-section {
+  background-color: rgba(231, 140, 140, 1);
+  padding: 25px;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.books-image {
+  aspect-ratio: 1.89;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  margin-top: 172px;
+}
+
+@media (max-width: 991px) {
+  .main-content {
+    padding-bottom: 100px;
+  }
+
+  .navigation-header {
+    max-width: 100%;
+    padding: 1px 20px 8px 20px;
+  }
+
+  .nav-menu {
+    margin-top: 40px;
+  }
+
+  .content-section {
+    margin-top: 40px;
+  }
+
+  .empty-state {
+    font-size: 40px;
+    max-width: 100%;
+    padding: 71px 20px;
+    white-space: initial;
+  }
+
+  .books-section {
+    max-width: 100%;
+    padding: 25px 20px;
+  }
+
+  .books-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}

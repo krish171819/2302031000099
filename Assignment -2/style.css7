@@ -1,0 +1,130 @@
+.page-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.main-header {
+  width: 100%;
+  height: 199px;
+  background-color: #ee7575;
+  position: relative;
+}
+
+.header-logo {
+  width: 389px;
+  height: 84px;
+  padding: 16px 0 0 33px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 86px;
+  padding-left: 101px;
+  padding-top: 43px;
+  font-family: Inter, sans-serif;
+}
+
+.nav-link {
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-link:nth-child(1) {
+  color: #1d0202;
+}
+
+.nav-link:nth-child(2) {
+  color: #1b0202;
+}
+
+.nav-link:nth-child(3) {
+  color: #000;
+}
+
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.mobile-menu-button i {
+  font-size: 32px;
+  color: #1d0202;
+}
+
+.content-grid {
+  width: 100%;
+  padding: 40px 62px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.content-image {
+  object-fit: contain;
+}
+
+.february-journal {
+  width: 313px;
+  height: 391px;
+}
+
+.stem-notebooks {
+  width: 534px;
+  height: 351px;
+}
+
+.about-me-journal {
+  width: 493px;
+  height: 369px;
+}
+
+.wellbeing-journal {
+  width: 558px;
+  height: 287px;
+}
+
+@media (max-width: 991px) {
+  .main-nav {
+    font-size: 32px;
+    gap: 40px;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header-logo {
+    width: 250px;
+    height: 54px;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .stem-notebooks,
+  .about-me-journal,
+  .wellbeing-journal {
+    width: 100%;
+  }
+}

@@ -1,0 +1,71 @@
+<header class="nav-header">
+  <div class="nav-container">
+    <div class="nav-content">
+      <div class="nav-top">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ecbc572cd1debc243363124e9e92199b8920736de383e43b8abc5018c236801?placeholderIfAbsent=true&apiKey=7472c1351ee740df81b55ecf23a470ae"
+          alt="Logo"
+          class="logo"
+        />
+        <div class="auth-buttons">
+          <a href="#" class="btn-create">create account</a>
+          <a href="#" class="btn-login">login</a>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#" class="nav-link">library</a>
+        <a href="#" class="nav-link">discover</a>
+        <a href="#" class="nav-link">whats new</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="main-content">
+  <section class="hero-section">
+    <h1 class="hero-title">make comics</h1>
+    <div class="hero-subtitle">
+      <span class="subtitle-text">with book</span>
+      <span class="subtitle-text creator">creator</span>
+    </div>
+  </section>
+
+  <section class="feature-section">
+    <div class="feature-container">
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9fd6014f7734e6e6a621188f4dff8c5abf48e331a5ab4b0d44c0f86ff3a1b638?placeholderIfAbsent=true&apiKey=7472c1351ee740df81b55ecf23a470ae"
+        alt="Featured content"
+        class="feature-image"
+      />
+      <div class="feature-content"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="main-footer">
+  <div class="footer-content">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <div class="community-section">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ecbc572cd1debc243363124e9e92199b8920736de383e43b8abc5018c236801?placeholderIfAbsent=true&apiKey=7472c1351ee740df81b55ecf23a470ae"
+            alt="Community logo"
+            class="community-logo"
+          />
+          <div class="community-info">
+            <h2 class="community-title">community</h2>
+            <p class="community-text">join the community</p>
+            <p class="community-text">book creator ambasadors</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-column">
+        <nav class="footer-nav">
+          <a href="#" class="footer-link">about us</a>
+          <a href="#" class="footer-link">contact us</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</footer>
+

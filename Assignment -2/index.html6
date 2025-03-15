@@ -1,0 +1,24 @@
+<header class="navigation-header">
+  <img
+    src="https://cdn.builder.io/api/v1/image/assets/7472c1351ee740df81b55ecf23a470ae/7ecbc572cd1debc243363124e9e92199b8920736de383e43b8abc5018c236801?placeholderIfAbsent=true"
+    alt="Library Logo"
+    class="logo"
+  />
+  <nav class="nav-menu">
+    <a href="#library" class="nav-link">library</a>
+    <a href="#discover" class="nav-link">discover</a>
+    <a href="#whatsnew" class="nav-link">whats new</a>
+  </nav>
+</header>
+
+<main class="main-content">
+  <section class="content-section">
+    <div class="empty-state">empty</div>
+    <div class="books-section">my books</div>
+    <img
+      src="https://cdn.builder.io/api/v1/image/assets/7472c1351ee740df81b55ecf23a470ae/35f647b93240ba0438b50b550c76c50d40e23d119fae994b52e27f565988b8f5?placeholderIfAbsent=true"
+      alt="Books Collection"
+      class="books-image"
+    />
+  </section>
+</main>

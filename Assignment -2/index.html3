@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="styles.css" />
+
+<div class="page-container">
+  <header class="main-header">
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/992778b5bf15118f80ded1583acafd882919b0e8" alt="Book Creator" class="header-logo" />
+    <nav class="desktop-nav">
+      <button class="nav-button nav-button-create">create account</button>
+      <button class="nav-button nav-button-login">login</button>
+    </nav>
+    <button class="mobile-menu">
+      <i class="ti ti-menu-2"></i>
+    </button>
+  </header>
+
+  <main class="main-content">
+    <h1 class="welcome-heading">welcome</h1>
+    <div class="forms-container">
+      <section class="form-section">
+        <h2 class="form-heading">login</h2>
+        <form class="auth-form">
+          <input type="email" placeholder="email address" class="form-input" />
+          <input type="password" placeholder="password" class="form-input" />
+          <button type="submit" class="form-button">login</button>
+        </form>
+      </section>
+
+      <section class="form-section">
+        <h2 class="form-heading">register</h2>
+        <form class="auth-form">
+          <input type="text" placeholder="name" class="form-input" />
+          <input type="email" placeholder="email" class="form-input" />
+          <input type="password" placeholder="password" class="form-input" />
+          <button type="submit" class="form-button">register</button>
+        </form>
+      </section>
+    </div>
+  </main>
+</div>

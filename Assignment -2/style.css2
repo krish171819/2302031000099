@@ -1,0 +1,263 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+}
+
+/* Header styles */
+.nav-header {
+  background-color: #d9d9d9;
+  width: 100%;
+  padding: 1px 0;
+}
+
+.nav-container {
+  background-color: #ee7575;
+  z-index: 10;
+  width: 100%;
+  padding: 23px 80px 2px 20px;
+  margin-bottom: -50px;
+}
+
+.nav-content {
+  max-width: 1225px;
+  width: 100%;
+}
+
+.nav-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.logo {
+  aspect-ratio: 4.63;
+  object-fit: contain;
+  width: 389px;
+}
+
+.auth-buttons {
+  display: flex;
+  margin-top: 27px;
+  gap: 64px;
+  flex-wrap: wrap;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.btn-create {
+  border-radius: 57px;
+  background-color: #0f0000;
+  padding: 2px 34px 9px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-login {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  margin-top: 32px;
+  margin-left: 83px;
+  width: 689px;
+  max-width: 100%;
+  gap: 84px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.nav-link {
+  text-decoration: underline;
+  color: #120101;
+}
+
+/* Hero section */
+.hero-section {
+  text-align: center;
+  margin-top: 86px;
+}
+
+.hero-title {
+  color: #000;
+  font-size: 48px;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+}
+
+.hero-subtitle {
+  display: flex;
+  width: 261px;
+  margin: -59px auto 0;
+  font-family: "Inknut Antiqua", serif;
+  font-size: 48px;
+  color: #000;
+  font-weight: 400;
+}
+
+.subtitle-text.creator {
+  margin-top: 62px;
+}
+
+/* Feature section */
+.feature-section {
+  margin-left: 56px;
+  width: 877px;
+  max-width: 100%;
+  padding: 30px 73px;
+  min-height: 620px;
+  position: relative;
+}
+
+.feature-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.feature-content {
+  position: relative;
+  background-color: #fff3f3;
+  height: 560px;
+}
+
+/* Footer styles */
+.main-footer {
+  background-color: #ee7575;
+  margin-top: 204px;
+  width: 100%;
+  padding: 51px 80px 17px 20px;
+}
+
+.footer-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.community-section {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inknut Antiqua", serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+.community-logo {
+  aspect-ratio: 4.63;
+  object-fit: contain;
+  width: 389px;
+  max-width: 100%;
+}
+
+.community-info {
+  align-self: flex-end;
+  margin-top: -22px;
+  z-index: 10;
+}
+
+.community-title {
+  color: #110000;
+  font-size: 32px;
+}
+
+.community-text {
+  color: #130101;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 93px;
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+  color: #120101;
+  font-weight: 700;
+}
+
+.footer-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .nav-container {
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding-right: 20px;
+  }
+
+  .nav-content {
+    max-width: 100%;
+  }
+
+  .btn-create {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-title {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .hero-subtitle {
+    font-size: 40px;
+  }
+
+  .subtitle-text.creator {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .feature-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .feature-content {
+    max-width: 100%;
+  }
+
+  .main-footer {
+    max-width: 100%;
+    margin-top: 40px;
+    padding-right: 20px;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  .community-section {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .footer-nav {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
